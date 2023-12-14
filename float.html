@@ -1,0 +1,79 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 30px;
+            height: 30px;
+            float: right;
+        }
+        .d1{
+            float: right;
+            border: 5px solid green;
+        }
+    
+    </style>
+</head>
+<body>
+    <img src="./img/hqdefaultb2.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi magnam voluptate recusandae veniam dicta quis ullam saepe voluptatum? Laborum voluptatem voluptas officia dolorem, cumque temporibus vero totam commodi exercitationem deserunt.</p>
+
+    <div class="d1">
+        <img src="./img/hqdefaultb4 - Copy.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum distinctio, iure ducimus id doloribus, debitis ex soluta autem fuga totam voluptatibus veniam dolores odit voluptatum! Suscipit laboriosam modi libero voluptas.</p>
+        
+    </div>
+    <div class="d2">
+        <img src="./img/hqdefaultb3 - Copy (2).jpg">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quia quibusdam eum autem aperiam repellendus sapiente quam numquam voluptates consequuntur veritatis, nam in inventore laborum libero! Obcaecati labore rem sunt.</p>
+    </div>
+    <div class="d3">
+        <img src="./img/hqdefaultb1.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, animi quasi ducimus reprehenderit non, repudiandae, accusantium blanditiis sapiente voluptas perspiciatis a labore voluptatem iure illo porro accusamus dolorem quis excepturi!</p>
+    </div>
+</body>
+</html>-->
+
+
+<!DOCTYPE HTML>
+<head>
+    <title>CSS Float</title>
+    <style>
+        .div1 {
+                float: right;
+                width: 100px;
+                height: 50px;
+                margin: 10px;
+                border: 3px solid #73AD21;
+        }
+        .div2 {
+                border: 1px solid red;
+        }
+        .div3 {
+                float: left;
+                width: 100px;
+                height: 50px;
+                margin: 10px;
+                border: 3px solid #73AD21;
+        }
+        .div4 {
+                border: 1px solid red;
+                clear: left;
+        }
+    </style>
+</head>
+
+<body>
+<div class="div1">div1</div>
+<div class="div2">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, 
+the text in div2 flows around div1.</div>
+<br><br>
+
+<div class="div3">div3</div>
+<div class="div4">div4 - Here, clear: left; moves div4 down below the floating div3. The value "left" clears 
+elements floated to the left. You can also clear "right" and "both".</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s2{
+            width: 100%;
+            height: 120vh;
+           
+            position: fixed;top: 50%;
+           
+            padding: 0.5%;
+            display:flexbox;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing:content-box;
+           
+        }
+        .s2{
+            text-align: center;
+           
+        }
+        .v1{
+            position: absolute;
+            right: 0%;
+            bottom: 0%;
+            z-index: -1;
+
+        }
+        .s2 h1{
+            font-size: 160px;
+            font-weight: 600;
+            transition:0.5s;
+            color: ghostwhite;
+
+        
+            
+        }
+        .s2 h1:hover{
+            -webkit-text-stroke: 2px white;
+            color: transparent;
+        }
+        @media(min-aspect-ratio:16/9){
+            .v1{
+                width: 100%;
+                height: auto;
+            }
+        }
+        @media(max-aspect-ratio:16/9){
+            .v1{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .s2 a{
+           
+            font-size: 24px;
+            color: aliceblue;
+            border: 2px solid white;
+            padding: 14px 50px;
+            margin-top: 20px;
+            transition: 0.5s;
+        }
+        .s2 a:hover{
+            background: wheat;
+            color: black;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <section>
+        <video autoplay loop muted plays-inline class="v1">
+            <source src="./videos/video (2160p).mp4" type="video/mp4">
+            
+        </video>
+        <section class="s2">
+            <h1>MY LAB</h1> 
+            <span>
+                <a href="a">Explore</a> 
+
+            </span>             
+                
+           
+        </section>
+    </section>
+</body>
+</html>
